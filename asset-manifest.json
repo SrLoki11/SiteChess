@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SiteChess/static/css/main.bcf6d7a5.css",
+    "main.js": "/SiteChess/static/js/main.f1de0205.js",
+    "static/media/Peao.mp4": "/SiteChess/static/media/Peao.b8ff168429edd4292237.mp4",
+    "static/media/Torre.mp4": "/SiteChess/static/media/Torre.03ce91ba4be3c2a09d56.mp4",
+    "static/media/Bispo.mp4": "/SiteChess/static/media/Bispo.9f6ebfef2e2ce11f2995.mp4",
+    "static/media/Cavalo.mp4": "/SiteChess/static/media/Cavalo.0539a159598295c7fa61.mp4",
+    "static/media/Rainha.mp4": "/SiteChess/static/media/Rainha.ef4af5e9e399d085d531.mp4",
+    "static/media/Rei.mp4": "/SiteChess/static/media/Rei.489a7b6e40ec1481177b.mp4",
+    "static/media/Kanna.jpeg": "/SiteChess/static/media/Kanna.ab3492b209020f786a07.jpeg",
+    "index.html": "/SiteChess/index.html",
+    "main.bcf6d7a5.css.map": "/SiteChess/static/css/main.bcf6d7a5.css.map",
+    "main.f1de0205.js.map": "/SiteChess/static/js/main.f1de0205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcf6d7a5.css",
+    "static/js/main.f1de0205.js"
+  ]
+}
