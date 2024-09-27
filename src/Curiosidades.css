@@ -1,0 +1,82 @@
+.curiosidades-container {
+  text-align: center;
+  padding: 40px 20px; /* Aumentei o padding para espaçamento geral */
+  background-color: #1c1c1c;
+}
+
+.animated-title {
+  font-size: 3em;
+  color: #cbf7ff;
+  animation: fadeIn 2s ease-in-out;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px #000; /* Adiciona um leve sombreamento no título */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Estilização dos itens de curiosidade */
+.curiosidade-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza os itens */
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out; /* Animação ao passar o mouse */
+}
+
+.curiosidade-item:hover {
+  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse */
+}
+
+.curiosidade-image {
+  width: 180px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 10px; /* Bordas arredondadas nas imagens */
+}
+
+.curiosidade-text {
+  flex-grow: 1;
+  font-size: 1.3em;
+  color: #f1f1f1;
+  text-align: left;
+  line-height: 1.6; /* Melhora a leitura do texto */
+}
+
+/* Estilização das frases */
+.frase-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.frase-image {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50%; /* Deixa a imagem em formato circular */
+}
+
+.frase-text {
+  font-style: italic;
+  font-size: 1.4em;
+  color: #cbf7ff;
+  line-height: 1.4;
+}
+
+/* Animação de fade para as frases */
+.frase-item:hover {
+  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse nas frases */
+  transition: transform 0.3s ease-in-out;
+}
