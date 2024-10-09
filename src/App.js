@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
+import Criador from './Criador';
 import Curiosidades from './Curiosidade';
 import Aprendizado from './Aprendizado';
 import Jogar from './Jogar';
@@ -43,11 +44,12 @@ function App() {
             <Route path="/curiosidades" element={<Curiosidades />} />
             <Route path="/aprendizado" element={<Aprendizado />} />
             <Route path="/jogar" element={<Jogar />} />
+            <Route path="/criador" element={<Criador />} />
           </Routes>
         </main>
 
         <footer>
-          <p>Desenvolvido por: Cauã Luiz</p>
+        <p>Desenvolvido por: <Link to="/criador">Cauã Luiz</Link></p>
         </footer>
       </div>
     </Router>

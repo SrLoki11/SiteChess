@@ -1,0 +1,71 @@
+
+
+/* Container principal */
+.criador-container {
+    width: 80%;
+    margin: 80px auto 20px auto; /* Ajuste para evitar sobreposição com o header fixo */
+    background-color: rgb(163, 160, 160);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  /* Títulos */
+  .criador-container h1, 
+  .criador-container h2 {
+    text-align: center;
+    color: #444;
+  }
+  
+  /* Foto de Perfil */
+  .perfil-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Seções do Perfil */
+  .profile-section {
+    margin-top: 20px;
+  }
+  
+  /* Lista de Informações */
+  .profile-section ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .profile-section ul li {
+    margin: 5px 0;
+  }
+  
+  /* Links para Redes Sociais */
+  .links a {
+    display: block;
+    margin: 10px 0;
+    color: #0073b1;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .criador-container {
+      width: 90%;
+    }
+  
+    .profile-section ul {
+      padding: 0 10px;
+    }
+  }
